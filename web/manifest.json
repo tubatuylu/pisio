@@ -1,0 +1,23 @@
+{
+  "name": "Pişio — Haftalık Menü Planlayıcı",
+  "short_name": "Pişio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#D94826",
+  "description": "Türkiye pazarına özel, tamamen ücretsiz haftalık menü planlama ve akıllı alışveriş listesi uygulaması.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
