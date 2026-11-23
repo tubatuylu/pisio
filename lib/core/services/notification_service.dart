@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import '../../features/meal_planner/domain/models/meal_plan.dart';
 
@@ -10,27 +11,27 @@ class NotificationService {
 
   static bool _isInitialized = false;
 
-  /// Bildirim eklentisini başlatır
+  /// Bildirim eklentisini başlatır (Web'de güvenle pas geçer)
   static Future<void> init() async {
+    if (kIsWeb) return;
     if (_isInitialized) return;
 
-    const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
-    const iosSettings = DarwinInitializationSettings(
-      requestAlertPermission: true,
-      requestBadgePermission: true,
-      requestSoundPermission: true,
-    );
-
-    const initSettings = InitializationSettings(
-      android: androidSettings,
-      iOS: iosSettings,
-    );
-
     try {
+      const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
+      const iosSettings = DarwinInitializationSettings(
+        requestAlertPermission: true,
+        requestBadgePermission: true,
+        requestSoundPermission: true,
+      );
+
+      const initSettings = InitializationSettings(
+        android: androidSettings,
+        iOS: iosSettings,
+      );
+
       await _notificationsPlugin.initialize(initSettings);
       _isInitialized = true;
-    } catch (e) {
-      // Test ortamlarında hata fırlatmasını önler
+    } catch (_) {
       _isInitialized = false;
     }
   }
@@ -41,34 +42,37 @@ class NotificationService {
     required String title,
     required String body,
   }) async {
-    const androidDetails = AndroidNotificationDetails(
-      'pisio_prep_channel',
-      'Yemek Hazırlık Hatırlatıcıları',
-      channelDescription: 'Yarın pişirilecek yemeklerin önceden hazırlık uyarıları',
-      importance: Importance.high,
-      priority: Priority.high,
-    );
+    if (kIsWeb) return;
 
-    const iosDetails = DarwinNotificationDetails();
+    try {
+      const androidDetails = AndroidNotificationDetails(
+        'pisio_prep_channel',
+        'Yemek Hazırlık Hatırlatıcıları',
+        channelDescription: 'Yarın pişirilecek yemeklerin önceden hazırlık uyarıları',
+        importance: Importance.high,
+        priority: Priority.high,
+      );
 
-    const details = NotificationDetails(
-      android: androidDetails,
-      iOS: iosDetails,
-    );
+      const iosDetails = DarwinNotificationDetails();
 
-    await _notificationsPlugin.show(id, title, body, details);
+      const details = NotificationDetails(
+        android: androidDetails,
+        iOS: iosDetails,
+      );
+
+      await _notificationsPlugin.show(id, title, body, details);
+    } catch (_) {}
   }
 
   /// Haftalık plandaki yarınki yemeklerin hazırlık uyarılarını kontrol edip planlar
   static Future<void> scheduleTomorrowPrepAlerts(WeeklyMealPlan plan) async {
-    final tomorrow = DateTime.now().add(const Duration(days: 1));
+    if (kIsWeb) return;
 
-    // Yarınki akşam yemeğini bul
+    final tomorrow = DateTime.now().add(const Duration(days: 1));
     final tomorrowDinner = plan.getItem(tomorrow, 'dinner');
     final recipe = tomorrowDinner?.recipe;
 
     if (recipe != null && recipe.prepAheadTip.isNotEmpty) {
-      // Hazırlık ipucu var (Örn: Nohutları akşamdan ıslatın)
       await showInstantNotification(
         id: 101,
         title: '🍲 Yarın Akşam: ${recipe.title}',

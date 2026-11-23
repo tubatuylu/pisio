@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -7,14 +8,19 @@ import 'core/services/notification_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Dikey ekran kilitleme (mobil deneyim odaklı)
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
+  // Web tarayıcısında çalışırken mobil bildirim ve yön kilidi kilitlenmelerini önle
+  if (!kIsWeb) {
+    try {
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
+    } catch (_) {}
 
-  // Yerel bildirim servisi başlatma
-  await NotificationService.init();
+    try {
+      await NotificationService.init();
+    } catch (_) {}
+  }
 
   runApp(
     const ProviderScope(

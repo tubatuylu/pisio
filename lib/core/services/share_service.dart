@@ -46,10 +46,12 @@ class ShareService {
     buffer.writeln('\nAfiyet olsun! ✨');
     buffer.writeln('Pişio ile hazırlandı: "Bu hafta ne pişirsem derdine son!"');
 
-    await Share.share(
-      buffer.toString(),
-      subject: 'Pişio Haftalık Menüm',
-    );
+    try {
+      await Share.share(
+        buffer.toString(),
+        subject: 'Pişio Haftalık Menüm',
+      );
+    } catch (_) {}
   }
 
   /// Alışveriş listesini reyonlara ayrılmış şekilde WhatsApp metni olarak paylaşır

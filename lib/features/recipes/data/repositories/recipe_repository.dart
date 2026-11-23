@@ -46,10 +46,84 @@ class LocalRecipeRepository implements RecipeRepository {
 
       _isInitialized = true;
     } catch (e) {
-      // Test veya asset yüklenemediğinde fallback boş liste
-      _recipes = [];
+      // Asset yüklenemediğinde fallback yerel Türk tariflerini kullan
+      _recipes = _getFallbackRecipes();
       _ingredients = [];
+      _isInitialized = true;
     }
+  }
+
+  List<Recipe> _getFallbackRecipes() {
+    return [
+      const Recipe(
+        id: 'rec_mercimek_fallback',
+        title: 'Kırmızı Mercimek Çorbası',
+        category: 'Çorbalar',
+        prepTimeMinutes: 10,
+        cookTimeMinutes: 20,
+        baseServings: 4,
+        difficulty: 'kolay',
+        season: 'her_mevsim',
+        budgetLevel: 'ekonomik',
+        prepAheadTip: 'Ertesi güne kalırsa biraz sıcak su ekleyerek ısıtabilirsiniz.',
+        tags: ['vejetaryen', 'glütensiz', 'ekonomik', 'çorba'],
+        ingredients: [
+          RecipeIngredient(ingredientId: '1', name: 'Kırmızı Mercimek', amount: 1.5, unit: 'su bardağı', category: 'Bakliyat & Kuru Gıda'),
+          RecipeIngredient(ingredientId: '2', name: 'Kuru Soğan', amount: 1, unit: 'adet', category: 'Manav'),
+          RecipeIngredient(ingredientId: '3', name: 'Havuç', amount: 1, unit: 'adet', category: 'Manav'),
+          RecipeIngredient(ingredientId: '4', name: 'Tereyağı', amount: 1, unit: 'yemek kaşığı', category: 'Süt Ürünleri'),
+        ],
+        steps: [
+          'Sebzeleri ve mercimeği tencereye alın.',
+          'Üzerine 6 su bardağı su ekleyip yumuşayana kadar haşlayın.',
+          'Pürüzsüz kıvama gelene kadar blenderdan geçirin.',
+          'Tereyağı ve nane sosu gezdirerek servis yapın.'
+        ],
+      ),
+      const Recipe(
+        id: 'rec_kuru_fasulye_fallback',
+        title: 'Geleneksel Kuru Fasulye',
+        category: 'Bakliyatlar',
+        prepTimeMinutes: 15,
+        cookTimeMinutes: 45,
+        baseServings: 4,
+        difficulty: 'orta',
+        season: 'kış',
+        budgetLevel: 'ekonomik',
+        prepAheadTip: 'Fasulyeleri bir gece önceden ıslatmayı unutmayın!',
+        tags: ['vejetaryen', 'glütensiz', 'ekonomik', 'ana_yemek'],
+        ingredients: [
+          RecipeIngredient(ingredientId: '5', name: 'Kuru Fasulye', amount: 2, unit: 'su bardağı', category: 'Bakliyat & Kuru Gıda'),
+          RecipeIngredient(ingredientId: '6', name: 'Kuru Soğan', amount: 1, unit: 'adet', category: 'Manav'),
+          RecipeIngredient(ingredientId: '7', name: 'Domates Salçası', amount: 1.5, unit: 'yemek kaşığı', category: 'Temel Gıda & Baharat'),
+        ],
+        steps: [
+          'Önceden ıslatılmış fasulyeleri hafif diri kalacak şekilde haşlayın.',
+          'Soğanı ve salçayı tencerede kavurun.',
+          'Fasulyeleri ekleyip sıcak su ilave edin, kısık ateşte lokum gibi pişirin.'
+        ],
+      ),
+      const Recipe(
+        id: 'rec_menemen_fallback',
+        title: 'Tavada Menemen',
+        category: 'Kahvaltılıklar',
+        prepTimeMinutes: 5,
+        cookTimeMinutes: 10,
+        baseServings: 2,
+        difficulty: 'kolay',
+        tags: ['vejetaryen', 'glütensiz', 'ekonomik', 'kahvaltı'],
+        ingredients: [
+          RecipeIngredient(ingredientId: '8', name: 'Yumurta', amount: 3, unit: 'adet', category: 'Süt Ürünleri'),
+          RecipeIngredient(ingredientId: '9', name: 'Domates', amount: 2, unit: 'adet', category: 'Manav'),
+          RecipeIngredient(ingredientId: '10', name: 'Sivri Biber', amount: 2, unit: 'adet', category: 'Manav'),
+        ],
+        steps: [
+          'Biberleri yağda soteleyin.',
+          'Doğranmış domatesleri ekleyip suyunu çekene kadar pişirin.',
+          'Yumurtaları kırıp hafif sulu kalacak şekilde pişirin.'
+        ],
+      ),
+    ];
   }
 
   // Testler veya önbellek için doğrudan liste ile başlatma
