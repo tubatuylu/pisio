@@ -1,41 +1,58 @@
-import 'package:intl/intl.dart';
-
 /// Türkiye yerelleştirmesi için tarih, sayı ve ölçü biçimlendiriciler.
+/// (Web ve mobil platformlarda bağımsız ve %100 güvenli çalışır)
 class TurkishFormatters {
   TurkishFormatters._();
 
-  static final DateFormat _dateOnlyFormat = DateFormat('dd.MM.yyyy');
-  static final DateFormat _dayMonthFormat = DateFormat('d MMMM', 'tr_TR');
-  static final NumberFormat _currencyFormat = NumberFormat.currency(
-    locale: 'tr_TR',
-    symbol: '₺',
-    decimalDigits: 2,
-  );
+  static const List<String> _months = [
+    'Ocak',
+    'Şubat',
+    'Mart',
+    'Nisan',
+    'Mayıs',
+    'Haziran',
+    'Temmuz',
+    'Ağustos',
+    'Eylül',
+    'Ekim',
+    'Kasım',
+    'Aralık',
+  ];
 
-  /// Tarihi GG.AA.YYYY biçiminde döndürür.
+  /// Tarihi GG.AA.YYYY biçiminde döndürür (Örn: 23.11.2026)
   static String formatDate(DateTime date) {
-    return _dateOnlyFormat.format(date);
+    final d = date.day.toString().padLeft(2, '0');
+    final m = date.month.toString().padLeft(2, '0');
+    return '$d.$m.${date.year}';
   }
 
-  /// Tarihi "23 Kasım" biçiminde döndürür.
+  /// Tarihi "23 Kasım" biçiminde döndürür (Harici locale tablosu gerektirmez)
   static String formatDayMonth(DateTime date) {
-    return _dayMonthFormat.format(date);
+    final monthName = (date.month >= 1 && date.month <= 12)
+        ? _months[date.month - 1]
+        : '';
+    return '${date.day} $monthName';
   }
 
   /// Sayıyı Türkiye standardında biçimlendirir (Örn: 1.250,50)
   static String formatNumber(double number) {
-    final formatter = NumberFormat('#,##0.##', 'tr_TR');
-    return formatter.format(number);
+    final isNegative = number < 0;
+    final absNum = number.abs();
+    final parts = absNum.toStringAsFixed(2).split('.');
+    final integerPart = parts[0].replaceAllMapped(
+      RegExp(r'(\d{1,3})(?=(\d{3})+(?!\d))'),
+      (Match m) => '${m[1]}.',
+    );
+    final formatted = '$integerPart,${parts[1]}';
+    return isNegative ? '-$formatted' : formatted;
   }
 
   /// Para birimini biçimlendirir
   static String formatCurrency(double amount) {
-    return _currencyFormat.format(amount);
+    return '${formatNumber(amount)} ₺';
   }
 
   /// Verilen tarihin ait olduğu haftanın Pazartesi gününü döndürür (Hafta Pazartesi başlar)
   static DateTime getWeekMonday(DateTime date) {
-    // date.weekday: Pazartesi = 1, Pazar = 7
     return DateTime(date.year, date.month, date.day).subtract(
       Duration(days: date.weekday - 1),
     );
@@ -107,7 +124,7 @@ class TurkishFormatters {
     }
   }
 
-  /// Miktarı Türkçe mutfak ölçüsü olarak güzelleştirir (Örn: 0.5 -> 1/2)
+  /// Miktarı Türkçe mutfak ölçüsü olarak formatlar (Örn: 0.5 -> ½)
   static String formatQuantity(double amount) {
     if ((amount - 0.5).abs() < 0.01) return '½';
     if ((amount - 0.25).abs() < 0.01) return '¼';

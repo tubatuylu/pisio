@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/theme/app_theme.dart';
 import 'core/constants/app_colors.dart';
@@ -22,15 +21,6 @@ class PisioApp extends ConsumerWidget {
       title: 'Pişio — Haftalık Menü Planlayıcı',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      locale: const Locale('tr', 'TR'),
-      supportedLocales: const [
-        Locale('tr', 'TR'),
-      ],
-      localizationsDelegates: const [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
       home: prefs.isOnboardingCompleted
           ? const MainNavigationScreen()
           : const OnboardingScreen(),

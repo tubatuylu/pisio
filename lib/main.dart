@@ -8,7 +8,7 @@ import 'core/services/notification_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Web tarayıcısında çalışırken mobil bildirim ve yön kilidi kilitlenmelerini önle
+  // Mobil cihazlarda dikey yön kilidi ve bildirim servisi
   if (!kIsWeb) {
     try {
       await SystemChrome.setPreferredOrientations([
