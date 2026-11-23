@@ -383,8 +383,9 @@ class _ShoppingListScreenState extends ConsumerState<ShoppingListScreen> {
                                           ref.read(shoppingListProvider.notifier).toggleInPantry(item.id);
                                         },
                                       ),
-                                    );
-                                  }),
+                                    ),
+                                  );
+                                }),
                               ],
                             );
                           },

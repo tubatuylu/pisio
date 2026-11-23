@@ -1,4 +1,4 @@
-import '../../recipes/domain/models/recipe.dart';
+import 'package:pisio/features/recipes/domain/models/recipe.dart';
 
 /// Haftalık menüdeki tek bir öğün kaydı
 class MealPlanItem {
