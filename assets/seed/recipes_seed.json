@@ -1,0 +1,444 @@
+[
+  {
+    "id": "rec_mercimek_corbasi",
+    "title": "Geleneksel Kırmızı Mercimek Çorbası",
+    "category": "Çorbalar",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Çorbanın kıvamı bekledikçe koyulaşır; ertesi güne kalırsa biraz kaynar su ekleyerek ısıtabilirsiniz.",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "kolay", "çorba"],
+    "ingredients": [
+      {"ingredientId": "ing_kirmizi_mercimek", "name": "Kırmızı Mercimek", "amount": 1.5, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": "Bol suyla yıkanmış"},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "İri doğranmış"},
+      {"ingredientId": "ing_havuc", "name": "Havuç", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Halka doğranmış"},
+      {"ingredientId": "ing_patates", "name": "Patates", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Küp doğranmış"},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 2.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": "Sosu için"},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_kuru_nane", "name": "Kuru Nane", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": "Sosu için"},
+      {"ingredientId": "ing_pul_biber", "name": "İpek Pul Biber", "amount": 0.5, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_limon", "name": "Limon", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Servis için"}
+    ],
+    "steps": [
+      "Derin bir tencereye zeytinyağını alın. İri doğranmış soğan, havuç ve patatesi 3-4 dakika hafifçe soteleyin.",
+      "Yıkanıp süzülen kırmızı mercimekleri ekleyip 1 dakika daha çevirin.",
+      "Üzerine 6 su bardağı sıcak su ve tuzu ekleyin. Kaynamaya başladıktan sonra kısık ateşte sebzeler yumuşayana kadar (yaklaşık 20 dakika) pişirin.",
+      "Pişen çorbayı pürüzsüz kıvama gelene dek el blenderından geçirin.",
+      "Küçük bir sos tavasında tereyağını eritin; nane ve pul biberi ekleyip köpürünce çorbanın üzerine dökün. Limon ile servis yapın."
+    ]
+  },
+  {
+    "id": "rec_ezogelin_corbasi",
+    "title": "Lokanta Usulü Ezogelin Çorbası",
+    "category": "Çorbalar",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Bakliyatları pişirmeden önce iyice yıkayıp süzün.",
+    "tags": ["vejetaryen", "ekonomik", "kolay", "çorba"],
+    "ingredients": [
+      {"ingredientId": "ing_kirmizi_mercimek", "name": "Kırmızı Mercimek", "amount": 1.0, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_baldo_pirinc", "name": "Baldo Pirinç", "amount": 1.0, "unit": "yemek kaşığı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_bulgur_pilavlik", "name": "Pilavlık Bulgur", "amount": 1.0, "unit": "yemek kaşığı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Yemeklik doğranmış"},
+      {"ingredientId": "ing_sarimsak", "name": "Sarımsak", "amount": 2.0, "unit": "diş", "category": "Manav", "notes": "Ezilmiş"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_biber_salcasi", "name": "Tatlı Biber Salçası", "amount": 0.5, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_kuru_nane", "name": "Kuru Nane", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Tencereye mercimek, pirinç ve bulguru alıp 6 su bardağı su ile bakliyatlar yumuşayana kadar haşlayın.",
+      "Ayrı bir tavada tereyağında soğan ve sarımsağı kavurun, salçaları ekleyip kokusu çıkana kadar soteleyin.",
+      "Nane ve pul biberi salçalı sosa ekleyip karıştırın.",
+      "Bu sosu tenceredeki haşlanmış bakliyat karışımına ilave edin ve çırpıcıyla karıştırarak 10 dakika birlikte kaynatın."
+    ]
+  },
+  {
+    "id": "rec_yayla_corbasi",
+    "title": "Naneli Yayla Çorbası",
+    "category": "Çorbalar",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Yoğurtlu terbiyenin kesilmemesi için tenceredeki sıcak sudan azar azar alıp terbiyeye ekleyin (temperleme).",
+    "tags": ["vejetaryen", "ekonomik", "kolay", "çorba"],
+    "ingredients": [
+      {"ingredientId": "ing_baldo_pirinc", "name": "Baldo Pirinç", "amount": 0.5, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_yogurt", "name": "Yoğurt", "amount": 1.5, "unit": "su bardağı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_yumurta", "name": "Yumurta", "amount": 1.0, "unit": "adet", "category": "Süt Ürünleri", "notes": "Sarısı"},
+      {"ingredientId": "ing_un", "name": "Buğday Unu", "amount": 1.0, "unit": "yemek kaşığı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.5, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_kuru_nane", "name": "Kuru Nane", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": "En son eklenecek"}
+    ],
+    "steps": [
+      "Pirinci 4 su bardağı su ile yumuşayana kadar haşlayın.",
+      "Bir kapta yoğurt, yumurta sarısı ve unu pürüzsüz olana kadar çırpın.",
+      "Kaynayan pirinç suyundan 1-2 kepçe alıp yoğurtlu karışıma yavaşça ekleyin ve ılıtın.",
+      "Ilıyan terbiyeyi tencereye azar azar dökün ve kaynayana kadar sürekli karıştırın.",
+      "Tereyağını kızdırıp naneyi yakın, çorbanın üzerine dökün. Tuzu ocaktan aldıktan sonra ilave edin."
+    ]
+  },
+  {
+    "id": "rec_kuru_fasulye",
+    "title": "Geleneksel Tencerede Kuru Fasulye",
+    "category": "Bakliyatlar",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 50,
+    "baseServings": 4,
+    "difficulty": "orta",
+    "season": "kış",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Kuru fasulyeleri bir gece önceden (en az 8-10 saat) bol soğuk suyla ıslatmayı unutmayın!",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "ana_yemek", "bakliyat"],
+    "ingredients": [
+      {"ingredientId": "ing_kuru_fasulye", "name": "Kuru Fasulye (İspir / Sıra)", "amount": 2.0, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": "Önceden ıslatılmış"},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Yemeklik doğranmış"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Doğranmış"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.5, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_biber_salcasi", "name": "Tatlı Biber Salçası", "amount": 0.5, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 2.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_pul_biber", "name": "İpek Pul Biber", "amount": 1.0, "unit": "çay kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Önceden ıslatılmış fasulyeleri süzüp taze su ile hafif diri kalacak şekilde yaklaşık 20 dakika haşlayın ve suyunu süzün.",
+      "Tencereye zeytinyağı ve tereyağını alın. Soğan ve sivri biberleri pembeleşene kadar soteleyin.",
+      "Domates ve biber salçasını ekleyip 2 dakika kokusu çıkana kadar kavurun.",
+      "Haşlanmış fasulyeleri tencereye ekleyin, tuz ve pul biberi ilave edip üzerini 2 parmak geçecek kadar sıcak su dökün.",
+      "Kısık ateşte fasulyeler lokum gibi yumuşayana kadar (30-40 dakika) kapağı kapalı pişirin."
+    ]
+  },
+  {
+    "id": "rec_etli_nohut",
+    "title": "Etli Nohut Yemeği",
+    "category": "Bakliyatlar",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 50,
+    "baseServings": 4,
+    "difficulty": "orta",
+    "season": "kış",
+    "budgetLevel": "orta",
+    "prepAheadTip": "Nohutları bir gece önceden karbonatsız bol ılık suyla ıslatın; eti sabahtan oda sıcaklığına getirin.",
+    "tags": ["glütensiz", "ana_yemek", "bakliyat", "etli"],
+    "ingredients": [
+      {"ingredientId": "ing_nohut", "name": "Nohut (Koçbaşı)", "amount": 2.0, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": "Geceden ıslatılmış"},
+      {"ingredientId": "ing_kusbasi_dana", "name": "Kuşbaşı Dana Eti", "amount": 250.0, "unit": "gram", "category": "Kasap & Şarküteri", "notes": "Küçük doğranmış"},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Doğranmış"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.5, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Eti düdüklü tencereye veya tencereye alıp suyunu salıp çekene kadar soteleyin.",
+      "Tereyağını ve doğranmış soğanı ekleyip kavurun.",
+      "Salçayı ilave edip 2 dakika kavurduktan sonra süzülmüş nohutları ve tuzu ekleyin.",
+      "Üzerini geçecek kadar sıcak su ilave edin. Düdüklüde yaklaşık 25-30 dakika (normal tencerede 50-60 dakika) pişirin."
+    ]
+  },
+  {
+    "id": "rec_karniyarik",
+    "title": "Fırında Klasik Karnıyarık",
+    "category": "Tencere & Etli Yemekler",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 35,
+    "baseServings": 4,
+    "difficulty": "orta",
+    "season": "yaz",
+    "budgetLevel": "orta",
+    "prepAheadTip": "Patlıcanların acısını almak için tuzlu suda 20 dakika bekletip iyice kurulayın.",
+    "tags": ["glütensiz", "ana_yemek", "etli"],
+    "ingredients": [
+      {"ingredientId": "ing_patlican", "name": "Patlıcan", "amount": 4.0, "unit": "adet", "category": "Manav", "notes": "Orta boy, alacalı soyulmuş"},
+      {"ingredientId": "ing_kiyma", "name": "Dana Kıyma (Orta Yağlı)", "amount": 250.0, "unit": "gram", "category": "Kasap & Şarküteri", "notes": ""},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "İnce kıyılmış"},
+      {"ingredientId": "ing_sarimsak", "name": "Sarımsak", "amount": 2.0, "unit": "diş", "category": "Manav", "notes": "Kıyılmış"},
+      {"ingredientId": "ing_domates", "name": "Domates", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "1 adedi küp doğranmış, 1 adedi üzeri için"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 3.0, "unit": "adet", "category": "Manav", "notes": "1 adedi harç için, 2 adedi üzeri için"},
+      {"ingredientId": "ing_maydanoz", "name": "Maydanoz", "amount": 0.5, "unit": "demet", "category": "Manav", "notes": "İnce kıyılmış"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": "Sosu için"},
+      {"ingredientId": "ing_aycicek_yagi", "name": "Ayçiçek Yağı", "amount": 3.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": "Kızartmak için"},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_karabiber", "name": "Öğütülmüş Karabiber", "amount": 0.5, "unit": "çay kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Patlıcanları alacalı soyup tuzlu suda bekletin, ardından kurulayıp yağda hafifçe kızartın veya fırında közleyin.",
+      "Tavada kıymayı soteleyin; üzerine soğan, sarımsak ve doğranmış biberi ekleyip kavurun.",
+      "Küp doğranmış domates, tuz ve karabiberi ekleyip domates suyunu çekene kadar pişirin. Ocaktan alınca kıyılmış maydanozu ekleyin.",
+      "Fırın tepsisine dizdiğiniz patlıcanların ortasını boydan yarıp kıymalı harçla doldurun.",
+      "Üzerlerine dilim domates ve biber yerleştirin. Salçayı 1 bardak sıcak suda açıp tepsiye dökün ve 190°C fırında 25 dakika pişirin."
+    ]
+  },
+  {
+    "id": "rec_zeytinyagli_taze_fasulye",
+    "title": "Zeytinyağlı Taze Fasulye",
+    "category": "Zeytinyağlılar & Sebze",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "yaz",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Zeytinyağlı yemekler piştikten sonra kapağı açılmadan oda sıcaklığına gelmeli ve bir gece buzdolabında dinlendirilmelidir.",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "zeytinyağlı"],
+    "ingredients": [
+      {"ingredientId": "ing_taze_fasulye", "name": "Taze Fasulye", "amount": 500.0, "unit": "gram", "category": "Manav", "notes": "Kılçıkları ayıklanıp kırılmış"},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Yemeklik doğranmış"},
+      {"ingredientId": "ing_domates", "name": "Domates", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Kabukları soyulup küp doğranmış"},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 4.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_toz_seker", "name": "Toz Şeker", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Geniş ve tabanı kalın bir tencereye zeytinyağını dökün, soğanları ekleyip 2 dakika şeffaflaşana kadar çevirin.",
+      "Ayıklanmış taze fasulyeleri ekleyip rengi canlı yeşile dönene kadar 5 dakika tencerenin kapağını kapatıp kendi buharında soteleyin.",
+      "Küp doğranmış domatesleri, şekeri ve tuzu ekleyin.",
+      "Yarım su bardağı sıcak su ekleyin. Kısık ateşte fasulyeler yumuşayana kadar yaklaşık 30 dakika pişirin.",
+      "Kapağını açmadan soğumaya bırakın, soğuk veya ılık servis yapın."
+    ]
+  },
+  {
+    "id": "rec_zeytinyagli_pirasa",
+    "title": "Havuçlu Zeytinyağlı Pırasa",
+    "category": "Zeytinyağlılar & Sebze",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "kış",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Pırasaları verev (açılı) kesmek yemeğe hem şık bir görünüm hem de eşit pişme dengesi katar.",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "zeytinyağlı", "kış"],
+    "ingredients": [
+      {"ingredientId": "ing_pirasa", "name": "Pırasa", "amount": 4.0, "unit": "adet", "category": "Manav", "notes": "Verev doğranmış"},
+      {"ingredientId": "ing_havuc", "name": "Havuç", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Halka doğranmış"},
+      {"ingredientId": "ing_baldo_pirinc", "name": "Baldo Pirinç", "amount": 2.0, "unit": "yemek kaşığı", "category": "Bakliyat & Kuru Gıda", "notes": "Yıkanmış"},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 3.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_limon", "name": "Limon", "amount": 0.5, "unit": "adet", "category": "Manav", "notes": "Suyu sıkılmış"},
+      {"ingredientId": "ing_toz_seker", "name": "Toz Şeker", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Tencereye zeytinyağını alın, halka doğranmış havuçları 2-3 dakika soteleyin.",
+      "Verev doğranmış pırasaları ilave edip 3-4 dakika daha birlikte çevirin.",
+      "Yıkanmış pirinci, şekeri, tuzu, limon suyunu ve 1 su bardağı sıcak suyu ekleyin.",
+      "Kapağı kapalı olarak kısık ateşte pirinçler ve sebzeler yumuşayana kadar yaklaşık 25 dakika pişirin. Ilık servis yapın."
+    ]
+  },
+  {
+    "id": "rec_sehriyeli_pirinc_pilavi",
+    "title": "Tane Tane Şehriyeli Pirinç Pilavı",
+    "category": "Pilav & Makarnalar",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Pirinçleri ılık ve tuzlu suda 20 dakika bekletip nişastası gidene kadar soğuk suyla yıkamak pilavın tane tane olmasını sağlar.",
+    "tags": ["vejetaryen", "ekonomik", "kolay", "yan_yemek"],
+    "ingredients": [
+      {"ingredientId": "ing_baldo_pirinc", "name": "Baldo Pirinç", "amount": 2.0, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": "Nişastası akıtılmış"},
+      {"ingredientId": "ing_arpa_sehriye", "name": "Arpa Şehriye", "amount": 0.5, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 2.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_aycicek_yagi", "name": "Ayçiçek Yağı", "amount": 2.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.5, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Pilav tenceresine sıvı yağ ve şehriyeyi alın. Şehriyeler altın rengi alana kadar orta ateşte kavurun.",
+      "Süzülmüş pirinçleri ve tereyağını ekleyin. Pirinçler şeffaflaşana kadar 3-4 dakika kırmadan kavurun.",
+      "3 su bardağı sıcak su ve tuzu ilave edin. Bir kez nazikçe karıştırıp kapağını kapatın.",
+      "Önce harlı ateşte göz göz olana kadar, sonra en kısık ateşte suyunu çekene kadar (yaklaşık 12-15 dakika) pişirin.",
+      "Ocaktan alıp üzerine havlu kağıt sererek en az 15 dakika demlendirin."
+    ]
+  },
+  {
+    "id": "rec_meyhane_pilavi",
+    "title": "Sebzeli Meyhane Pilavı",
+    "category": "Pilav & Makarnalar",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Bulgur pilavı demlenirken içine 1 yemek kaşığı tereyağı gezdirirseniz lezzeti katlanır.",
+    "tags": ["vejetaryen", "ekonomik", "kolay", "yan_yemek"],
+    "ingredients": [
+      {"ingredientId": "ing_bulgur_pilavlik", "name": "Pilavlık Bulgur", "amount": 2.0, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Doğranmış"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Doğranmış"},
+      {"ingredientId": "ing_biber_kapya", "name": "Kapya Biber", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Doğranmış"},
+      {"ingredientId": "ing_domates", "name": "Domates", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Rendelenmiş"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.5, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 2.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_karabiber", "name": "Öğütülmüş Karabiber", "amount": 0.5, "unit": "çay kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Tencereye yağları alın. Soğan ve biberleri hafifçe soteleyin.",
+      "Salçayı ve rendelenmiş domatesi ekleyip 2-3 dakika pişirin.",
+      "Bulguru ilave edip harçla bütünleşmesi için 1 dakika çevirin.",
+      "4 su bardağı sıcak su, tuz ve karabiberi ekleyin. Kısık ateşte suyunu çekene kadar pişirin.",
+      "10 dakika demlendirip ılık servis yapın."
+    ]
+  },
+  {
+    "id": "rec_firinda_sebzeli_tavuk",
+    "title": "Fırında Sebzeli Tavuk But",
+    "category": "Tencere & Etli Yemekler",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Tavukları sabahtan marine sosunda bekletirseniz eti çok daha yumuşak ve lezzetli olur.",
+    "tags": ["glütensiz", "ana_yemek", "tavuk", "kolay"],
+    "ingredients": [
+      {"ingredientId": "ing_tavuk_pirzola", "name": "Tavuk Pirzola / But", "amount": 800.0, "unit": "gram", "category": "Kasap & Şarküteri", "notes": ""},
+      {"ingredientId": "ing_patates", "name": "Patates", "amount": 3.0, "unit": "adet", "category": "Manav", "notes": "Elma dilim"},
+      {"ingredientId": "ing_havuc", "name": "Havuç", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Verev doğranmış"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 3.0, "unit": "adet", "category": "Manav", "notes": "İri doğranmış"},
+      {"ingredientId": "ing_sarimsak", "name": "Sarımsak", "amount": 3.0, "unit": "diş", "category": "Manav", "notes": "Ezilmiş"},
+      {"ingredientId": "ing_yogurt", "name": "Yoğurt", "amount": 2.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": "Marine için"},
+      {"ingredientId": "ing_domates_salcasi", "name": "Domates Salçası", "amount": 1.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 3.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_kekik", "name": "Dağ Kekiği", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Derin bir kasede yoğurt, salça, zeytinyağı, ezilmiş sarımsak, kekik ve tuzu karıştırarak sosu hazırlayın.",
+      "Tavuk etlerini ve sebzeleri bu sosla harmanlayın.",
+      "Fırın tepsisine tavukları ve sebzeleri eşit şekilde yayın.",
+      "Önceden ısıtılmış 200°C fırında tavukların üzeri kızarıp sebzeler yumuşayana kadar yaklaşık 40-45 dakika pişirin."
+    ]
+  },
+  {
+    "id": "rec_tepsi_boregi",
+    "title": "Fırında Peynirli Tepsi Böreği",
+    "category": "Börek & Hamur İşi",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "baseServings": 6,
+    "difficulty": "orta",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Böreği pişirmeden önce dilimleyip sosunu çekmesi için buzdolabında 30 dakika bekletin.",
+    "tags": ["vejetaryen", "hamur_isi", "kolay"],
+    "ingredients": [
+      {"ingredientId": "ing_yufka", "name": "Taze Günlük Yufka", "amount": 5.0, "unit": "adet", "category": "Fırın & Hamur İşi", "notes": ""},
+      {"ingredientId": "ing_beyaz_peynir", "name": "Tam Yağlı Beyaz Peynir", "amount": 300.0, "unit": "gram", "category": "Süt Ürünleri", "notes": "Çatalla ezilmiş"},
+      {"ingredientId": "ing_maydanoz", "name": "Maydanoz", "amount": 0.5, "unit": "demet", "category": "Manav", "notes": "İnce kıyılmış"},
+      {"ingredientId": "ing_sut", "name": "Günlük Süt", "amount": 1.5, "unit": "su bardağı", "category": "Süt Ürünleri", "notes": "Sos için"},
+      {"ingredientId": "ing_yumurta", "name": "Yumurta", "amount": 2.0, "unit": "adet", "category": "Süt Ürünleri", "notes": "Sos için"},
+      {"ingredientId": "ing_aycicek_yagi", "name": "Ayçiçek Yağı", "amount": 0.5, "unit": "su bardağı", "category": "Temel Gıda & Baharat", "notes": "Sos için"}
+    ],
+    "steps": [
+      "Bir kasede süt, yumurta ve sıvı yağı çırparak börek sosunu hazırlayın.",
+      "Peynir ve ince kıyılmış maydanozu karıştırarak iç harcı oluşturun.",
+      "Yağlanmış fırın tepsisine ilk yufkayı kenarları dışarı sarkacak şekilde serin ve soslayın.",
+      "Kalan yufkaları büzüştürerek aralarına sos ve peynirli harç paylaştırarak kat kat dizin.",
+      "En son sarkan kenarları içe katlayıp kalan sosu üzerine gezdirin. 180°C fırında üzeri altın rengi olana kadar yaklaşık 35 dakika pişirin."
+    ]
+  },
+  {
+    "id": "rec_menemen",
+    "title": "Geleneksel Tavada Menemen",
+    "category": "Kahvaltılıklar",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "baseServings": 2,
+    "difficulty": "kolay",
+    "season": "yaz",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Domateslerin kabuklarını kolay soymak için üzerine kaynar su döküp 2 dakika bekletebilirsiniz.",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "kolay", "kahvaltı"],
+    "ingredients": [
+      {"ingredientId": "ing_yumurta", "name": "Yumurta", "amount": 3.0, "unit": "adet", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_domates", "name": "Domates", "amount": 3.0, "unit": "adet", "category": "Manav", "notes": "Kabuğu soyulup ince küp doğranmış"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "İnce doğranmış"},
+      {"ingredientId": "ing_tereyagi", "name": "Tereyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Süt Ürünleri", "notes": ""},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 1.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 0.5, "unit": "tatlı kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_pul_biber", "name": "İpek Pul Biber", "amount": 0.5, "unit": "çay kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Geniş tavaya sıvı yağ ve tereyağını alın. Biberleri ekleyip kokusu çıkana kadar hafifçe soteleyin.",
+      "Küp doğranmış domatesleri ekleyin. Tavanın kapağını kapatıp domatesler suyunu salıp çekene kadar kısık ateşte pişirin.",
+      "Tuzu ve pul biberi ekleyip karıştırın.",
+      "Yumurtaları doğrudan tavanın içine kırın. Aklarını domatesle hafifçe karıştırıp sarılarını patlatarak istediğiniz pişme kıvamında (hafif sulu) ocaktan alın."
+    ]
+  },
+  {
+    "id": "rec_firinda_sutlac",
+    "title": "Fırında Anne Sütlacı",
+    "category": "Tatlılar",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "baseServings": 6,
+    "difficulty": "orta",
+    "season": "her_mevsim",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Fırın tepsisine güveçlerin yarısına gelecek kadar soğuk su koymak sütlacın kurumasını engeller.",
+    "tags": ["vejetaryen", "glütensiz", "tatli"],
+    "ingredients": [
+      {"ingredientId": "ing_sut", "name": "Günlük Süt", "amount": 5.0, "unit": "su bardağı", "category": "Süt Ürünleri", "notes": "1 litre"},
+      {"ingredientId": "ing_baldo_pirinc", "name": "Baldo Pirinç", "amount": 0.5, "unit": "su bardağı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_toz_seker", "name": "Toz Şeker", "amount": 1.0, "unit": "su bardağı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_nisasta", "name": "Mısır Nişastası", "amount": 2.0, "unit": "yemek kaşığı", "category": "Bakliyat & Kuru Gıda", "notes": ""},
+      {"ingredientId": "ing_vanilin", "name": "Şekerli Vanilin", "amount": 1.0, "unit": "paket", "category": "Fırın & Hamur İşi", "notes": ""},
+      {"ingredientId": "ing_yumurta", "name": "Yumurta", "amount": 1.0, "unit": "adet", "category": "Süt Ürünleri", "notes": "Sarısı (üzerinin kızarması için)"}
+    ],
+    "steps": [
+      "Pirinci 2 su bardağı suda suyunu çekene kadar haşlayın.",
+      "Haşlanan pirinçlerin üzerine sütü ve vanilini ekleyip kaynamaya bırakın.",
+      "Nişastayı ve yumurta sarısını yarım çay bardağı su ile açın. Kaynayan sütten 1 kepçe ekleyip ılıtın ve tencereye dökün.",
+      "Toz şekeri ekleyip koyulaşana kadar 10 dakika karıştırarak pişirin.",
+      "Fırına dayanıklı güveç kaplarına paylaştırın. Fırın tepsisine su koyup 200°C ızgara ayarında üstleri kızarana kadar fırınlayın."
+    ]
+  },
+  {
+    "id": "rec_coban_salata",
+    "title": "Geleneksel Çoban Salatası",
+    "category": "Salata & Mezeler",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "baseServings": 4,
+    "difficulty": "kolay",
+    "season": "yaz",
+    "budgetLevel": "ekonomik",
+    "prepAheadTip": "Salatanın suyunu salmaması için sosunu tam servis anında ekleyin.",
+    "tags": ["vejetaryen", "glütensiz", "ekonomik", "kolay", "salata"],
+    "ingredients": [
+      {"ingredientId": "ing_domates", "name": "Domates", "amount": 3.0, "unit": "adet", "category": "Manav", "notes": "Küp doğranmış"},
+      {"ingredientId": "ing_salatalik", "name": "Salatalık", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Küp doğranmış"},
+      {"ingredientId": "ing_biber_yesil", "name": "Sivri Biber", "amount": 2.0, "unit": "adet", "category": "Manav", "notes": "Halka doğranmış"},
+      {"ingredientId": "ing_sogan", "name": "Kuru Soğan", "amount": 1.0, "unit": "adet", "category": "Manav", "notes": "Piyazlık doğranmış"},
+      {"ingredientId": "ing_maydanoz", "name": "Maydanoz", "amount": 0.5, "unit": "demet", "category": "Manav", "notes": "İnce kıyılmış"},
+      {"ingredientId": "ing_zeytinyagi", "name": "Sızma Zeytinyağı", "amount": 3.0, "unit": "yemek kaşığı", "category": "Temel Gıda & Baharat", "notes": ""},
+      {"ingredientId": "ing_limon", "name": "Limon", "amount": 0.5, "unit": "adet", "category": "Manav", "notes": "Suyu"},
+      {"ingredientId": "ing_tuz", "name": "Sofra Tuzu", "amount": 1.0, "unit": "çay kaşığı", "category": "Temel Gıda & Baharat", "notes": ""}
+    ],
+    "steps": [
+      "Domates ve salatalıkları eşit büyüklükte küpler halinde doğrayın.",
+      "Piyazlık doğranmış soğanı hafifçe tuzla ovup yıkayın (acı suyunu atması için).",
+      "Doğranmış sivri biber ve ince kıyılmış maydanozu geniş bir kasede birleştirin.",
+      "Zeytinyağı, limon suyu ve tuzu küçük bir kasede çırpıp salatanın üzerine gezdirin ve harmanlayın."
+    ]
+  }
+]
